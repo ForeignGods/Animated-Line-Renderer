@@ -1,0 +1,58 @@
+{
+  "name": "com.unity.collab-proxy",
+  "displayName": "Version Control",
+  "version": "1.15.15",
+  "unity": "2020.3",
+  "unityRelease": "14f1",
+  "description": "The Version Control package gives you the ability to use either Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity (beta), a Plastic SCM subscription is required. Learn more about how you can get started for free by visiting plasticscm.com.",
+  "_upm": {
+    "gameService": {
+      "groupIndex": 0,
+      "groupName": "DevOps",
+      "genericDashboardUrl": "https://dashboard.unity3d.com/collaborate",
+      "projectDashboardUrl": "https://developer.cloud.unity3d.com/collab/orgs/{0}/projects/{1}/assets/",
+      "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+      "configurePath": "Project/Services/Version Control"
+    },
+    "supportedPlatforms": [
+      "Android",
+      "iOS",
+      "Linux",
+      "Mac",
+      "PC",
+      "WebGL",
+      "Windows 8 Universal",
+      "Windows 10 Universal"
+    ]
+  },
+  "keywords": [
+    "backup",
+    "cloud",
+    "collab",
+    "collaborate",
+    "collaboration",
+    "control",
+    "plastic",
+    "plasticscm",
+    "source",
+    "team",
+    "teams",
+    "version",
+    "vcs"
+  ],
+  "dependencies": {
+    "com.unity.services.core": "1.0.1"
+  },
+  "category": "Editor",
+  "upm": {
+    "changelog": "Plastic SCM for Unity is now available as part of the Version Control Package! You can enable Plastic SCM via Window > Plastic SCM to get started!,If you have previously used the Unity Asset Store Plastic SCM plug-in, you can now simply use this package. Make sure you delete the plug-in from your project.,Removing a previously added Plastic SCM Asset Store Plug-In:,- Select the PlasticSCM folder in the Assets\\Plugins folder on the Project tab, then click Edit > Delete,- Close the Unity Editor and open your project again. You will find the Plastic SCM menu item in the Window menu.,### Added,- Added checkout option in scene prefab view,### Changed,- Updated file overlay icon size to adapt to project window zoom level,- Updated the styling of number of items in a category in Gluon incoming changes view,### Fixed,- Fixed Plastic X not opening from plugin menu,- Fixed error when trying to invite members to proect,- Fixed editor unhandled errors being hijacked by the plugin,- Fixed toolbar icon not displaying incoming changes notification when Plastic window is closed,- Fixed VCCache::instance != NULL error when opening a project with Plastic window opened"
+  },
+  "upmCi": {
+    "footprint": "3e53a3683e87a7ba09462f55889d6c24cf576076"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git",
+    "type": "git",
+    "revision": "abf10445fb869983dbe4f8f87ec63c58f4cd36e0"
+  }
+}
