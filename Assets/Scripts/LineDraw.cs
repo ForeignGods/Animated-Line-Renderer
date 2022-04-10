@@ -32,7 +32,7 @@ public class LineDraw: MonoBehaviour
 
     void Randomize()
     {
-        int randomInt = Random.Range(0, 5); 
+        int randomInt = Random.Range(1, 5); 
 
         switch (randomInt)
         {
