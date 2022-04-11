@@ -1,4 +1,4 @@
-# Animated-ine-enderer
+# Animated-Line-Renderer
 
 This is a demo project on how you can set up animated, dotted or dashed line renderers in unity.<br>Additionally included is a script that demonstrates how you gain access to properties of shader graphs through code and how to draw with line renderers. 
 
